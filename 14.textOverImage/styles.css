@@ -1,0 +1,30 @@
+/* Style for making the image cover the entire page */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Brush Script MT', cursive; /* Cursive font */
+}
+
+.overlay {
+    background-image: url('images/lyric01.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+    background-color: rgba(255, 182, 193, 0.8); /* Light pink background with transparency */
+    color: white;
+    padding: 20px;
+    font-size: 28px; /* Slightly larger font for better visibility */
+    text-align: center;
+    border-radius: 10px;
+    font-style: italic; /* Italics for cursive text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
